@@ -1,0 +1,13 @@
+schema: "classroom50/repo-config/v1"
+classroom: "si-679-f-26"
+assignment: "week09-nyt"
+secret: "mjt5rszh"
+owner:
+  username: "ZohaHayat"
+  id: 118454911
+  accepted_at: "2026-11-17T18:51:02Z"
+source:
+  owner: "SI679-Classroom-F26"
+  owner_id: 316432332
+  repo: "week09-nyt-starter"
+  branch: "main"
