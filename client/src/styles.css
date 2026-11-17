@@ -45,6 +45,14 @@
   margin-right: 1rem;
 }
 
+.brand .maize {
+  color: #fbbf24;
+}
+
+.brand .brew {
+  color: #2563eb;
+}
+
 nav button {
   margin: 0;
   padding: 0.4rem 0.9rem;

@@ -6,7 +6,7 @@ import { getToken } from './session.ts';
 
 // From client/.env. Vite only hands the browser variables that start with
 // VITE_, and only reads .env when `npm run dev` starts.
-const API_URL = import.meta.env.VITE_API_URL;
+export const API_URL = import.meta.env.VITE_API_URL ?? window.location.origin;
 // #endregion api-url
 
 type Options = {

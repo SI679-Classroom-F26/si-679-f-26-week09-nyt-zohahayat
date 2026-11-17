@@ -4,8 +4,7 @@
 import { io } from 'socket.io-client';
 import type { Socket } from 'socket.io-client';
 import { getToken } from './session.ts';
-
-const API_URL = import.meta.env.VITE_API_URL;
+import { API_URL } from './client.ts';
 
 // One socket for the whole app, made the first time a screen subscribes.
 let socket: Socket | null = null;
